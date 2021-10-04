@@ -56,6 +56,26 @@ class Form {
        this.bg2.position(250,200);
        this.bg3.position(250,250);
 
+       this.bg1.mousePressed(()=>{
+        title.hide();
+        this.pistol.hide();
+        this.SmgLmg.hide();
+        this.sniper.hide();
+        background("red");     
+
+      });
+
+       
+
+      this.bg3.mousePressed(()=>{
+        title.hide();
+        this.pistol.hide();
+        this.SmgLmg.hide();
+        this.sniper.hide();
+        background("red");
+      });
+
+
        });
 
        this.SmgLmg.mousePressed(()=>{
@@ -73,6 +93,15 @@ class Form {
        this.bg1.position(250,150);
        this.bg2.position(250,200);
        this.bg3.position(250,250);
+
+       this.bg2.mousePressed(()=>{
+        title.hide();
+        this.pistol.hide();
+        this.SmgLmg.hide();
+        this.sniper.hide();
+        background("red");
+      });
+
 
        });
 
@@ -92,8 +121,18 @@ class Form {
        this.bg2.position(250,200);
        this.bg3.position(250,250);
 
+       this.bg2.mousePressed(()=>{
+         
+        title.hide();
+        this.pistol.hide();
+        this.SmgLmg.hide();
+        this.sniper.hide();
+        background("red");
+      });
+
        });
 
+       
        });
      }
 
