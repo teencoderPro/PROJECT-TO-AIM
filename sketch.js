@@ -1,6 +1,6 @@
 var database;
 var gameState = 0;
-var form,game,nane; 
+var form,game,player; 
 
 function setup() {
   createCanvas(800,400);
