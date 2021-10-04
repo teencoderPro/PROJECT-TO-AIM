@@ -18,7 +18,8 @@ class Game {
                player = new Player();
                form = new Form()
                form.display();
-
                }
+
+          
                     }
 }
