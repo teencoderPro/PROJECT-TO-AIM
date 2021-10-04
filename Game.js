@@ -13,14 +13,12 @@ class Game {
                });
           }
 
-          start(){
-               if(gameState === 0){
-                    nane = new Name();
-                    nane.getCount();
-                    form = new Form()
-                    form.display();
-
+     start(){
+          if(gameState === 0){
+               player = new Player();
+               form = new Form()
+               form.display();
 
                }
-          }
+                    }
 }
